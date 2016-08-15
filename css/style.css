@@ -6,12 +6,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Modules */
 /* line 7, ../sass/style.scss */
+.module .module-h2 {
+  margin: 10px 0;
+}
+/* line 10, ../sass/style.scss */
 .module img {
   border-radius: 15px;
 }
 
 /* Buttons */
-/* line 12, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .btn-new {
   border-radius: 15px;
   display: block;
@@ -19,35 +23,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Modals */
-/* line 19, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .custom {
   background: rgba(0, 0, 0, 0.8);
 }
-/* line 21, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .custom .modal-content {
   border-radius: 0;
 }
-/* line 25, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .custom .modal-h3 {
   background: #008CD2;
   color: #fff;
   padding: 10px;
 }
-/* line 31, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .custom .modal-h4 {
   margin-bottom: 5px;
 }
-/* line 35, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .custom img {
   margin-bottom: 10px;
 }
-/* line 39, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .custom p {
   text-align: justify;
 }
 
 /* Helper Classes */
-/* line 45, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .img-full-width {
   width: 100%;
 }
