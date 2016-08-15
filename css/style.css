@@ -1,0 +1,53 @@
+/* line 1, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/* Modules */
+/* line 7, ../sass/style.scss */
+.module img {
+  border-radius: 15px;
+}
+
+/* Buttons */
+/* line 12, ../sass/style.scss */
+.btn-new {
+  border-radius: 15px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Modals */
+/* line 19, ../sass/style.scss */
+.custom {
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 21, ../sass/style.scss */
+.custom .modal-content {
+  border-radius: 0;
+}
+/* line 25, ../sass/style.scss */
+.custom .modal-h3 {
+  background: #008CD2;
+  color: #fff;
+  padding: 10px;
+}
+/* line 31, ../sass/style.scss */
+.custom .modal-h4 {
+  margin-bottom: 5px;
+}
+/* line 35, ../sass/style.scss */
+.custom img {
+  margin-bottom: 10px;
+}
+/* line 39, ../sass/style.scss */
+.custom p {
+  text-align: justify;
+}
+
+/* Helper Classes */
+/* line 45, ../sass/style.scss */
+.img-full-width {
+  width: 100%;
+}
