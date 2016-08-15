@@ -12,10 +12,14 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 /* Buttons */
-.btn-new {
+.btn {
   border-radius: 15px;
+}
+.btn-new {
   display: block;
   margin: 10px auto;
+  width: 50%;
+  font-weight: bold;
 }
 
 /* Modals */
