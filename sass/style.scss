@@ -58,19 +58,20 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 .intro {
-  background: #333;
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../images/manicured-lawn.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 25vh;
-  border-top: 3px solid #008CD2;
-  border-bottom: 3px solid #008CD2;
+  min-height: 30vh;
 
   .intro-text {
     width: 50%;
 
     h1 {
+      font-family: 'Roboto Condensed', sans-serif;
       margin-bottom: 10px;
     }
 
@@ -82,6 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 /* Modules */
 .module {
   .module-h2 {
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 20px 0;
   }
   img {
@@ -106,6 +108,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .modal-h3 {
+    font-family: 'Roboto Condensed', sans-serif;
     background: #008CD2;
     color: #fff;
     padding:10px;
@@ -121,6 +124,16 @@ h1,h2,h3,h4,h5,h6 {
 
   p {
     text-align: justify;
+  }
+}
+
+/* Main Footer */
+.main-footer {
+  padding: 10px;
+  background: #008CD2;
+  color: #fff;
+  .copyright {
+    font-weight: bold;
   }
 }
 

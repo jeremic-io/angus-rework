@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width: device-width, initial-scale=1.0">
   <title>Angus Termite and Pest Control</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
@@ -28,17 +31,6 @@
     </div>
   </header>
 
-
-  <div class="intro">
-      <div class="intro-text">
-        <h1 class="text-center">Welcome to Angus Pest Control</h1>
-        <p>
-          Angus Pest Control offers a variety of professional pest control services including the following: ant control, rodent control, termite control, automated fly misting, mosquito control, and fertilization for both residential and commercial customers.
-        </p>
-        <button class="btn btn-default btn-new" data-toggle="modal" data-target=".about-modal">Read more</button>
-      </div>
-  </div>
-
   <!-- Contact for small screens -->
   <div class="container">
     <div class="row">
@@ -57,6 +49,17 @@
         </div>
       </div>
     </div>
+  </div>
+
+
+  <div class="intro">
+      <div class="intro-text">
+        <h1 class="text-center">Welcome to Angus Pest Control</h1>
+        <p>
+          Angus Pest Control offers a variety of professional pest control services including the following: ant control, rodent control, termite control, automated fly misting, mosquito control, and fertilization for both residential and commercial customers.
+        </p>
+        <button class="btn btn-default btn-new" data-toggle="modal" data-target=".about-modal">Read more</button>
+      </div>
   </div>
 
   <!-- Our Services -->
@@ -331,6 +334,15 @@
       </div>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="copyright text-center">
+        Copyright © 2012 - 2016 by Angus Pest Control. All rights reserved.
+      </div>
+    </div>
+  </footer>
 
 
 
