@@ -28,6 +28,17 @@
     </div>
   </header>
 
+
+  <div class="intro">
+      <div class="intro-text">
+        <h1 class="text-center">Welcome to Angus Pest Control</h1>
+        <p>
+          Angus Pest Control offers a variety of professional pest control services including the following: ant control, rodent control, termite control, automated fly misting, mosquito control, and fertilization for both residential and commercial customers.
+        </p>
+        <button class="btn btn-default btn-new" data-toggle="modal" data-target=".about-modal">Read more</button>
+      </div>
+  </div>
+
   <!-- Contact for small screens -->
   <div class="container">
     <div class="row">
@@ -51,7 +62,7 @@
   <!-- Our Services -->
   <section class="module">
     <div class="container">
-      <h2 class="module-h2">Our Services</h2>
+      <h2 class="module-h2 text-center">Our Services</h2>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
           <img src="images/pest_control.jpg" class="img img-responsive" alt="Pest Control">
@@ -211,7 +222,7 @@
   </div>
 
   <!-- Mosqite Control Modal -->
-  <div class="modal fade mosqite-modal custom" tabindex="-4" role="dialog" aria-labelledby="Mosqite Control">
+  <div class="modal fade mosqite-modal custom" tabindex="-5" role="dialog" aria-labelledby="Mosqite Control">
     <div class="modal-dialog modal-lg custom-modal-dialog" role="document">
       <div class="modal-content">
         <h3 class="modal-h3 text-center">Mosquite Control</h3>
@@ -260,7 +271,7 @@
   </div>
 
   <!-- Control Modal -->
-  <div class="modal fade fertilization-modal custom" tabindex="-4" role="dialog" aria-labelledby="Fertilization Control">
+  <div class="modal fade fertilization-modal custom" tabindex="-6" role="dialog" aria-labelledby="Fertilization Control">
     <div class="modal-dialog modal-lg custom-modal-dialog" role="document">
       <div class="modal-content">
         <h3 class="modal-h3 text-center">Fertilization</h3>
@@ -281,6 +292,36 @@
               <div class="col-lg-4 col-md-4 col-sm-4">
                 <img src="images/fertilization.jpg" class="img img-responsive img-full-width" alt="Fertilization">
                 <img src="images/mosquit2.jpg" class="img img-responsive img-full-width" alt="Mosquit2">
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-new" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us Modal -->
+  <div class="modal fade about-modal custom" tabindex="-7" role="dialog" aria-labelledby="About Us">
+    <div class="modal-dialog modal-lg custom-modal-dialog" role="document">
+      <div class="modal-content">
+        <h3 class="modal-h3 text-center">About Us</h3>
+        <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-8">
+                <p>
+                  Since 2001, Angus Pest Control has serviced the pest control needs of Palm City, Stuart, Port St Lucie, Hobe Sound, Tequesta, and Jupiter, FL. We take pride in being a local, family owned business. We are licensed and insured for your peace of mind.
+                </p>
+                <p>
+                  No matter where you live on the Treasure Coast we can meet your pest control needs with speedy response, friendly staff, and effective pest control techniques. When you chose Angus Pest Control, you receive great service at an affordable price.
+                </p>
+                <p>
+                  If you have any questions, please do not hesitate to call me personally (Shawn Mosley) and I will work to address any and all concerns to your satisfaction. At Angus Pest Control, we value our relationships with each and every customer.
+                </p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <img src="images/manicured-lawn.jpg" class="img img-responsive img-full-width" alt="manicured-lawn">
               </div>
             </div>
         </div>

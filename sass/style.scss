@@ -57,6 +57,28 @@ h1,h2,h3,h4,h5,h6 {
     }
   }
 }
+.intro {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+  border-top: 3px solid #008CD2;
+  border-bottom: 3px solid #008CD2;
+
+  .intro-text {
+    width: 50%;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+}
 /* Modules */
 .module {
   .module-h2 {
