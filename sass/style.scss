@@ -2,10 +2,65 @@ h1,h2,h3,h4,h5,h6 {
   padding: 0;
   margin: 0;
 }
+/* Main Header */
+.main-header {
+  padding: 10px 0;
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .logo-container {
+    margin-bottom:40px;
+  }
+  .info-social {
+    padding:10px;
+    font-weight: bold;
+    font-size: 1.6rem;
+
+    .social {
+      margin-left: 10px;
+      padding-top: 8px;
+      a {
+        display: inline-block;
+        margin-left: 5px;
+      }
+      img {
+        border-radius: 15px;
+        transition: border-radius 0.5s ease;
+        &:hover {
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+/* Info social box for small screens only */
+.info-social-small {
+  padding:10px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border: 1px solid #008CD2;
+  margin: 50px;
+
+  .social {
+    margin-left: 10px;
+    padding-top: 8px;
+    a {
+      display: inline-block;
+      margin-left: 5px;
+    }
+    img {
+      border-radius: 15px;
+      transition: border-radius 0.5s ease;
+      &:hover {
+        border-radius: 50%;
+      }
+    }
+  }
+}
 /* Modules */
 .module {
   .module-h2 {
-    margin: 10px 0;
+    margin: 20px 0;
   }
   img {
     border-radius: 15px;
@@ -18,7 +73,6 @@ h1,h2,h3,h4,h5,h6 {
 .btn-new {
   display: block;
   margin: 10px auto;
-  width: 50%;
   font-weight: bold;
 }
 
