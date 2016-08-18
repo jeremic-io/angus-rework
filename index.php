@@ -58,7 +58,7 @@
         <p>
           Angus Pest Control offers a variety of professional pest control services including the following: ant control, rodent control, termite control, automated fly misting, mosquito control, and fertilization for both residential and commercial customers.
         </p>
-        <button class="btn btn-default btn-new" data-toggle="modal" data-target=".about-modal">Read more</button>
+        <button class="btn btn-primary btn-new" data-toggle="modal" data-target=".about-modal">Read more</button>
       </div>
   </div>
 
