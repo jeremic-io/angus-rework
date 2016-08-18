@@ -85,7 +85,7 @@
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
           <img src="images/mosqitecontrol.jpg" class="img img-responsive" alt="Mosqite Control">
-          <button class="btn btn-primary btn-new" data-toggle="modal" data-target=".mosqite-modal">Mosqite Control</button>
+          <button class="btn btn-primary btn-new" data-toggle="modal" data-target=".mosqite-modal">Mosqito Control</button>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
           <img src="images/fertilization.jpg" class="img img-responsive" alt="Fertilization">
@@ -228,11 +228,11 @@
   <div class="modal fade mosqite-modal custom" tabindex="-5" role="dialog" aria-labelledby="Mosqite Control">
     <div class="modal-dialog modal-lg custom-modal-dialog" role="document">
       <div class="modal-content">
-        <h3 class="modal-h3 text-center">Mosquite Control</h3>
+        <h3 class="modal-h3 text-center">Mosquito Control</h3>
         <div class="modal-body">
             <div class="row">
               <div class="col-lg-8 col-md-8 col-sm-8">
-                <h4 class="modal-h4">Mosquite Control Program</h4>
+                <h4 class="modal-h4">Mosquito Control Program</h4>
                 <p>
                   Our mosquito control program starts with a free inspection of your property to find all the breeding and harboring sites. Then with the use of insect growth regulators in standing water and fogging shaded low ventilated areas we can maintain an area of reduced population and you can go back to enjoying your yard again.
                   <ul>
